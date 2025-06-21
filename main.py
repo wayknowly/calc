@@ -73,7 +73,7 @@ class CalculatorApp:
             plt.legend()
             plt.show()
 
-            self.output_text.insert(tk.END, "График построен успешно.")
+            self.output_text.insert(tk.END, "График построен.")
         except Exception as e:
             self.output_text.insert(tk.END, f"Ошибка при построении графика:\n{e}")
 
